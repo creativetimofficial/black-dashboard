@@ -6,11 +6,11 @@
 
 ![Product Gif](https://s3.amazonaws.com/creativetim_bucket/github/gif/black-dashboard.gif)
 
-Black Dashboard is a free Black Bootstrap Admin with a fresh, new design inspired by Google's Black Design. We are very excited to introduce our take on the black concepts through an easy to use and beautiful set of components. Black Dashboard was built over the popular Bootstrap framework and it comes with a couple of third-party plugins redesigned to fit in with the rest of the elements.
+Black Dashboard is a beautiful Bootstrap 4 Admin Dashboard with a huge number of components built to fit together and look amazing. If you are looking for a tool to manage and visualize data about your business, this dashboard is the thing for you. It combines colors that are easy on the eye, spacious cards, beautiful typography, and graphics.
+Black Dashboard comes packed with all plugins that you might need inside a project and documentation on how to get started. It is light and easy to use, and also very powerful.
 
-Black Dashboard makes use of light, surface and movement. The general layout resembles sheets of paper following multiple different layers, so that the depth and order is obvious. The navigation stays mainly on the left sidebar and the content is on the right inside the main panel.
-
-Black Dashboard comes with 5 color filter choices for both the sidebar and the card headers (blue, green, orange, red and purple) and an option to have a background image on the sidebar.
+Black Dashboard features over 16 individual components, giving you the freedom of choosing and combining. This means that there are thousands of possible combinations. All components can take variations in color, that you can easily modify using SASS files. You will save a lot of time going from prototyping to full-functional code because all elements are implemented.
+We thought about everything, so this dashboard comes with 2 versions, Dark Mode and Light Mode. 
 
 Special thanks go to:
 - [Robert McIntosh](https://github.com/mouse0270/bootstrap-notify) for the notification system.
@@ -31,8 +31,6 @@ We are very excited to share this dashboard with you and we look forward to hear
 * [Technical Support or Questions](#technical-support-or-questions)
 * [Licensing](#licensing)
 * [Useful Links](#useful-links)
-
-
 
 
 ## Demo
