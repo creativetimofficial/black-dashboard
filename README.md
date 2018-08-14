@@ -1,4 +1,4 @@
-# [Black Dashboard](https://demos.creative-tim.com/black-dashboard/examples/dashboard.html) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)]()
+# [Black Dashboard](https://demos.creative-tim.com/black-dashboard/examples/dashboard.html) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=Black%20Dashboard%20by%20Creative%20Tim&url=https%3A%2F%2Fdemos.creative-tim.com%2Fblack-dashboard%2Fexamples%2Fdashboard.html&via=CreativeTim)
 
 
  ![version](https://img.shields.io/badge/version-1.0.0-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/black-dashboard/issues.svg?maxAge=2592000)](https://github.com/creativetimofficial/black-dashboard/issues/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/black-dashboard/issues.svg?maxAge=2592000)](https://github.com/creativetimofficial/black-dashboard/issues/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
@@ -62,28 +62,49 @@ The documentation for the Black Dashboard is hosted at our [website](https://dem
 Within the download you'll find the following directories and files:
 
 ```
-material-dashboard/
-├── assets/
-|   ├── css/
-|   |   ├── bootstrap.min.css
-|   |   ├── material-dashboard.css
-|   |   ├── material-dashboard-rtl.css
-|   |   └── demo.css
-|   ├── js/
-|   |   ├── bootstrap-notify.js
-|   |   ├── bootstrap.min.js
-|   |   ├── chartist.min.js
-|   |   ├── demo.js
-|   |   ├── jquery-3.1.0.min.js
-|   |   ├── material-dashboard.js
-|   |   └── material.min.js
-|   ├── sass/
-|   |    ├── md
-|   |    └── material-dashboard.scss
-|   └── img/
-|
-├── documentation/
-├── examples/
+black-dashboard/
+├── CHANGELOG.md
+├── README.md
+├── assets
+│   ├── css
+│   │   ├── black-dashboard.css
+│   │   ├── black-dashboard.css.map
+│   │   ├── black-dashboard.min.css
+│   │   ├── bootstrap.min.css
+│   │   └── nucleo-icons.css
+│   ├── demo
+│   │   ├── demo.css
+│   │   └── demo.js
+│   ├── fonts/
+│   ├── img/
+│   ├── js
+│   │   ├── black-dashboard.js
+│   │   ├── black-dashboard.js.map
+│   │   ├── black-dashboard.min.js
+│   │   ├── core/
+│   │   └── plugins
+│   │       ├── bootstrap-notify.js
+│   │       ├── chartjs.min.js
+│   │       └── perfect-scrollbar.jquery.min.js
+│   └── scss/
+│       ├── black-dashboard/
+│       └── black-dashboard.scss
+├── docs
+│   └── documentation.html
+├── examples
+│   ├── dashboard.html
+│   ├── icons.html
+│   ├── map.html
+│   ├── notifications.html
+│   ├── rtl.html
+│   ├── tables.html
+│   ├── typography.html
+│   ├── upgrade.html
+│   └── user.html
+├── gulpfile.js
+├── package.json
+└── LICENSE.md
+
 
 ```
 
@@ -113,7 +134,7 @@ If you have questions or need help integrating the product please [contact us]()
 
 ## Licensing
 
-- Copyright 2018 Creative Tim ()
+- Copyright 2018 Creative Tim (https://www.creative-tim.com/)
 
 - Licensed under MIT (https://github.com/creativetimofficial/black-dashboard/issues/blob/master/LICENSE.md)
 

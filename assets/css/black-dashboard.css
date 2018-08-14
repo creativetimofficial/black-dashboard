@@ -4665,6 +4665,10 @@ table.tablesorter thead tr .headerSortDown {
   margin-left: 0;
 }
 
+.rtl .card.card-tasks .dropdown-menu {
+  margin-right: -115px;
+}
+
 @media screen and (max-width: 991px) {
   .rtl .sidebar {
     margin-right: 0;
@@ -5535,6 +5539,9 @@ table.tablesorter thead tr .headerSortDown {
   .footer {
     padding-left: 0px;
   }
+  .rtl .footer {
+    padding-right: 25px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -5581,6 +5588,10 @@ table.tablesorter thead tr .headerSortDown {
     display: none;
   }
   .main-panel .content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .rtl .main-panel .content {
     padding-left: 15px;
     padding-right: 15px;
   }

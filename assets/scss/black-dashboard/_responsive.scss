@@ -325,6 +325,10 @@
     .footer{
       padding-left: 0px;
     }
+
+    .rtl .footer{
+      padding-right: 25px;
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -371,6 +375,8 @@
       }
     }
 
+
+
 }
 
 @media screen and (max-width: 768px){
@@ -391,6 +397,11 @@
   }
 
   .main-panel .content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .rtl .main-panel .content{
     padding-left: 15px;
     padding-right: 15px;
   }
