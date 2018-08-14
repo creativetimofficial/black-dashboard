@@ -9,11 +9,7 @@ Created using IcoMoon - icomoon.io
 @font-face {
   font-family: 'Nucleo';
   src: url('../fonts/nucleo.eot');
-  src: url('../fonts/nucleo.eot') format('embedded-opentype'),
-  url('../fonts/nucleo.woff2') format('woff2'),
-  url('../fonts/nucleo.woff') format('woff'),
-  url('../fonts/nucleo.ttf') format('truetype'),
-  url('../fonts/nucleo.svg') format('svg');
+  src: url('../fonts/nucleo.eot') format('embedded-opentype'), url('../fonts/nucleo.woff2') format('woff2'), url('../fonts/nucleo.woff') format('woff'), url('../fonts/nucleo.ttf') format('truetype'), url('../fonts/nucleo.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -33,7 +29,7 @@ Created using IcoMoon - icomoon.io
   -moz-osx-font-smoothing: grayscale;
 }
 
-.font-icon-detail{
+.font-icon-detail {
   text-align: center;
   padding: 45px 0 30px;
   border: 1px solid #e44cc4;
@@ -41,16 +37,17 @@ Created using IcoMoon - icomoon.io
   margin: 15px 0;
   min-height: 168px;
 }
-.font-icon-detail i{
-    color: #FFFFFF;
-    font-size: 1.5em;
-  }
 
-.font-icon-detail p{
-    color: #e44cc4 !important;
-    margin-top: 30px;
-    padding: 0 10px;
-    font-size: .7142em;
+.font-icon-detail i {
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+.font-icon-detail p {
+  color: #e44cc4 !important;
+  margin-top: 30px;
+  padding: 0 10px;
+  font-size: .7142em;
 }
 
 /*------------------------
@@ -60,13 +57,17 @@ Created using IcoMoon - icomoon.io
 .tim-icons-sm {
   font-size: 0.8em;
 }
+
 .tim-icons-lg {
   font-size: 1.2em;
 }
+
 /* absolute units */
+
 .tim-icons-16 {
   font-size: 16px;
 }
+
 .tim-icons-32 {
   font-size: 32px;
 }
@@ -83,11 +84,10 @@ Created using IcoMoon - icomoon.io
 .tim-icons-bg-circle {
   border-radius: 50%;
 }
+
 /*------------------------
   list icons
 -------------------------*/
-
-
 
 /*------------------------
   spinning icons
@@ -107,6 +107,7 @@ Created using IcoMoon - icomoon.io
     -webkit-transform: rotate(360deg);
   }
 }
+
 @-moz-keyframes tim-icons-spin {
   0% {
     -moz-transform: rotate(0deg);
@@ -115,6 +116,7 @@ Created using IcoMoon - icomoon.io
     -moz-transform: rotate(360deg);
   }
 }
+
 @keyframes tim-icons-spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -135,6 +137,7 @@ Created using IcoMoon - icomoon.io
 /*------------------------
   rotated/flipped icons
 -------------------------*/
+
 /*------------------------
 	icons
 -------------------------*/
