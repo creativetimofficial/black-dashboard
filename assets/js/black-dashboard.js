@@ -193,7 +193,7 @@ blackDashboard = {
   showSidebarMessage: function(message) {
     try {
       $.notify({
-        icon: "now-ui-icons ui-1_bell-53",
+        icon: "tim-icons ui-1_bell-53",
         message: message
       }, {
         type: 'info',

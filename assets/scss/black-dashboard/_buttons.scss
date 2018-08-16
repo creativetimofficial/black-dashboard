@@ -54,7 +54,7 @@
             .fa,
             .far,
             .fas,
-            .now-ui-icons{
+            .tim-icons{
                 font-size: $btn-icon-font-size-small;
             }
         }
@@ -67,12 +67,12 @@
             .fa,
             .far,
             .fas,
-            .now-ui-icons{
+            .tim-icons{
                 font-size: $btn-icon-font-size-lg;
             }
         }
 
-        &:not(.btn-footer) .now-ui-icons,
+        &:not(.btn-footer) .tim-icons,
         &:not(.btn-footer) .fa,
         &:not(.btn-footer) .far,
         &:not(.btn-footer) .fas{
@@ -87,7 +87,7 @@
 
     }
 
-    &:not(.btn-icon) .now-ui-icons{
+    &:not(.btn-icon) .tim-icons{
         position: relative;
         top: 1px;
     }

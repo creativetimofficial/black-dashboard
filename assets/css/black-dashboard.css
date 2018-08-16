@@ -576,11 +576,11 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .btn.btn-icon.btn-sm .fa,
 .btn.btn-icon.btn-sm .far,
 .btn.btn-icon.btn-sm .fas,
-.btn.btn-icon.btn-sm .now-ui-icons,
+.btn.btn-icon.btn-sm .tim-icons,
 .navbar .navbar-nav>a.btn.btn-icon.btn-sm .fa,
 .navbar .navbar-nav>a.btn.btn-icon.btn-sm .far,
 .navbar .navbar-nav>a.btn.btn-icon.btn-sm .fas,
-.navbar .navbar-nav>a.btn.btn-icon.btn-sm .now-ui-icons {
+.navbar .navbar-nav>a.btn.btn-icon.btn-sm .tim-icons {
   font-size: 0.6875rem;
 }
 
@@ -594,19 +594,19 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .btn.btn-icon.btn-lg .fa,
 .btn.btn-icon.btn-lg .far,
 .btn.btn-icon.btn-lg .fas,
-.btn.btn-icon.btn-lg .now-ui-icons,
+.btn.btn-icon.btn-lg .tim-icons,
 .navbar .navbar-nav>a.btn.btn-icon.btn-lg .fa,
 .navbar .navbar-nav>a.btn.btn-icon.btn-lg .far,
 .navbar .navbar-nav>a.btn.btn-icon.btn-lg .fas,
-.navbar .navbar-nav>a.btn.btn-icon.btn-lg .now-ui-icons {
+.navbar .navbar-nav>a.btn.btn-icon.btn-lg .tim-icons {
   font-size: 1.325rem;
 }
 
-.btn.btn-icon:not(.btn-footer) .now-ui-icons,
+.btn.btn-icon:not(.btn-footer) .tim-icons,
 .btn.btn-icon:not(.btn-footer) .fa,
 .btn.btn-icon:not(.btn-footer) .far,
 .btn.btn-icon:not(.btn-footer) .fas,
-.navbar .navbar-nav>a.btn.btn-icon:not(.btn-footer) .now-ui-icons,
+.navbar .navbar-nav>a.btn.btn-icon:not(.btn-footer) .tim-icons,
 .navbar .navbar-nav>a.btn.btn-icon:not(.btn-footer) .fa,
 .navbar .navbar-nav>a.btn.btn-icon:not(.btn-footer) .far,
 .navbar .navbar-nav>a.btn.btn-icon:not(.btn-footer) .fas {
@@ -619,8 +619,8 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
   width: 24px;
 }
 
-.btn:not(.btn-icon) .now-ui-icons,
-.navbar .navbar-nav>a.btn:not(.btn-icon) .now-ui-icons {
+.btn:not(.btn-icon) .tim-icons,
+.navbar .navbar-nav>a.btn:not(.btn-icon) .tim-icons {
   position: relative;
   top: 1px;
 }
@@ -4305,7 +4305,7 @@ table.tablesorter thead tr .headerSortDown {
   background: linear-gradient(#222a42, #1d253b);
 }
 
-.fixed-plugin .dropdown .dropdown-menu .now-ui-icons {
+.fixed-plugin .dropdown .dropdown-menu .tim-icons {
   top: 5px;
 }
 
@@ -5515,7 +5515,7 @@ table.tablesorter thead tr .headerSortDown {
     margin-top: 65px;
   }
   .navbar-nav .nav-link i.fa,
-  .navbar-nav .nav-link i.now-ui-icons {
+  .navbar-nav .nav-link i.tim-icons {
     opacity: .5;
   }
   .main-panel {
