@@ -1,3 +1,32 @@
+var transparent = true;
+var transparentDemo = true;
+var fixedTop = false;
+
+var navbar_initialized = false;
+var backgroundOrange = false;
+var sidebar_mini_active = false;
+var toggle_initialized = false;
+
+var $html = $('html');
+var $body = $('body');
+var $navbar_minimize_fixed = $('.navbar-minimize-fixed');
+var $collapse = $('.collapse');
+var $navbar = $('.navbar');
+var $tagsinput = $('.tagsinput');
+var $selectpicker = $('.selectpicker');
+var $navbar_color = $('.navbar[color-on-scroll]');
+var $full_screen_map = $('.full-screen-map');
+var $datetimepicker = $('.datetimepicker');
+var $datepicker = $('.datepicker');
+var $timepicker = $('.timepicker');
+
+var seq = 0,
+  delays = 80,
+  durations = 500;
+var seq2 = 0,
+  delays2 = 80,
+  durations2 = 500;
+
 /*!
 
  =========================================================
@@ -7,7 +36,7 @@
  * Product Page: https://www.creative-tim.com/product/black-dashboard
  * Copyright 2018 Creative Tim (http://www.creative-tim.com)
 
- * Designed by www.invisionapp.com Coded by www.creative-tim.com
+ * Coded by www.creative-tim.com
 
  =========================================================
 
@@ -16,32 +45,34 @@
  */
 
 (function() {
-  isWindows = navigator.platform.indexOf('Win') > -1 ? true : false;
+  var isWindows = navigator.platform.indexOf('Win') > -1 ? true : false;
 
   if (isWindows) {
     // if we are on windows OS we activate the perfectScrollbar function
-    var ps = new PerfectScrollbar('.main-panel');
-    var ps1 = new PerfectScrollbar('.sidebar .sidebar-wrapper');
-    $('.table-responsive').each(function() {
-      var ps2 = new PerfectScrollbar($(this)[0]);
-    });
-    $('html').addClass('perfect-scrollbar-on');
+    if ($('.main-panel').length != 0) {
+      var ps = new PerfectScrollbar('.main-panel', {
+        wheelSpeed: 2,
+        wheelPropagation: true,
+        minScrollbarLength: 20,
+        suppressScrollX: true
+      });
+    }
+
+    if ($('.sidebar .sidebar-wrapper').length != 0) {
+
+      var ps1 = new PerfectScrollbar('.sidebar .sidebar-wrapper');
+      $('.table-responsive').each(function() {
+        var ps2 = new PerfectScrollbar($(this)[0]);
+      });
+    }
+
+
+
+    $html.addClass('perfect-scrollbar-on');
   } else {
-    $('html').addClass('perfect-scrollbar-off');
+    $html.addClass('perfect-scrollbar-off');
   }
 })();
-
-transparent = true;
-transparentDemo = true;
-fixedTop = false;
-
-navbar_initialized = false;
-backgroundOrange = false;
-sidebar_mini_active = false;
-toggle_initialized = false;
-
-seq = 0, delays = 80, durations = 500;
-seq2 = 0, delays2 = 80, durations2 = 500;
 
 $(document).ready(function() {
 
@@ -110,14 +141,14 @@ $(document).ready(function() {
 });
 
 $(document).on('click', '.navbar-toggle', function() {
-  $toggle = $(this);
+  var $toggle = $(this);
 
   if (blackDashboard.misc.navbar_menu_visible == 1) {
-    $('html').removeClass('nav-open');
+    $html.removeClass('nav-open');
     blackDashboard.misc.navbar_menu_visible = 0;
     setTimeout(function() {
       $toggle.removeClass('toggled');
-      $('#bodyClick').remove();
+      $('.bodyClick').remove();
     }, 550);
 
   } else {
@@ -125,17 +156,17 @@ $(document).on('click', '.navbar-toggle', function() {
       $toggle.addClass('toggled');
     }, 580);
 
-    div = '<div id="bodyClick"></div>';
+    var div = '<div class="bodyClick"></div>';
     $(div).appendTo('body').click(function() {
-      $('html').removeClass('nav-open');
+      $html.removeClass('nav-open');
       blackDashboard.misc.navbar_menu_visible = 0;
       setTimeout(function() {
         $toggle.removeClass('toggled');
-        $('#bodyClick').remove();
+        $('.bodyClick').remove();
       }, 550);
     });
 
-    $('html').addClass('nav-open');
+    $html.addClass('nav-open');
     blackDashboard.misc.navbar_menu_visible = 1;
   }
 });
@@ -144,9 +175,8 @@ $(window).resize(function() {
   // reset the seq for charts drawing animations
   seq = seq2 = 0;
 
-  if ($('.full-screen-map').length == 0 && $('.bd-docs').length == 0) {
-    $navbar = $('.navbar');
-    isExpanded = $('.navbar').find('[data-toggle="collapse"]').attr("aria-expanded");
+  if ($full_screen_map.length == 0 && $('.bd-docs').length == 0) {
+    var isExpanded = $navbar.find('[data-toggle="collapse"]').attr("aria-expanded");
     if ($navbar.hasClass('bg-white') && $(window).width() > 991) {
       $navbar.removeClass('bg-white').addClass('navbar-transparent');
     } else if ($navbar.hasClass('navbar-transparent') && $(window).width() < 991 && isExpanded != "false") {
