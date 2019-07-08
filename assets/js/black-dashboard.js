@@ -1,3 +1,21 @@
+/*!
+
+=========================================================
+* Black Dashboard - v1.0.1
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/argon-dashboard
+* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md)
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+
 var transparent = true;
 var transparentDemo = true;
 var fixedTop = false;
@@ -26,23 +44,6 @@ var seq = 0,
 var seq2 = 0,
   delays2 = 80,
   durations2 = 500;
-
-/*!
-
- =========================================================
- * Black Dashboard - v1.0.0
- =========================================================
-
- * Product Page: https://www.creative-tim.com/product/black-dashboard
- * Copyright 2018 Creative Tim (http://www.creative-tim.com)
-
- * Coded by www.creative-tim.com
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
 
 (function() {
   var isWindows = navigator.platform.indexOf('Win') > -1 ? true : false;

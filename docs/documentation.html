@@ -77,7 +77,7 @@
             Black Dashboard
           </h1>
           <h3 class="description">Documentation v1.0.0</h3>
-          <br/>
+          <br />
           <a href="https://demos.creative-tim.com/black-dashboard/docs/1.0/getting-started/introduction.html" class="btn btn-primary btn-round btn-lg">View documentation</a>
         </div>
       </div>
@@ -85,29 +85,72 @@
   </div>
   <footer class="footer">
     <div class="container">
-      <ul class="nav">
-        <li class="nav-item">
-          <a href="javascript:void(0)" class="nav-link">
-            Creative Tim
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="javascript:void(0)" class="nav-link">
-            About Us
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="javascript:void(0)" class="nav-link">
-            Blog
-          </a>
-        </li>
-      </ul>
-      <div class="copyright">
-        ©
-        <script>
-          document.write(new Date().getFullYear())
-        </script> made with <i class="tim-icons icon-heart-2"></i> by
-        <a href="javascript:void(0)" target="_blank">Creative Tim</a> for a better web.
+      <div class="row">
+        <div class="col-md-3">
+          <h1 class="title">BLK•</h1>
+        </div>
+        <div class="col-md-3 col-6">
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="../examples/landing-page.html" class="nav-link">
+                Landing
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="../examples/register-page.html" class="nav-link">
+                Register
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="../examples/profile-page.html" class="nav-link">
+                Profile
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-6">
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="https://creative-tim.com/contact-us?ref=blkdsp-footer" class="nav-link">
+                Contact Us
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://creative-tim.com/about-us?ref=blkdsp-footer" class="nav-link">
+                About Us
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="http://creative-tim.com/blog?ref=blkdsp-footer" class="nav-link">
+                Blog
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://opensource.org/licenses/MIT?ref=blkdsp-footer" class="nav-link">
+                License
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h3 class="title">Follow us:</h3>
+          <div class="btn-wrapper profile text-left">
+            <a target="_blank" href="https://twitter.com/creativetim" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a target="_blank" href="https://www.facebook.com/creativetim" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Like us">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+            <a target="_blank" href="https://dribbble.com/creativetim" class="btn btn-icon btn-neutral  btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
+              <i class="fab fa-dribbble"></i>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
@@ -124,8 +167,7 @@
   <!--  Notifications Plugin    -->
   <script src="../assets/js/plugins/bootstrap-notify.js"></script>
   <!-- Control Center for Black Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="../assets/js/black-dashboard.min.js?v=1.0.0"></script>
-  <!-- Black Dashboard DEMO methods, don't include it in your project! -->
+  <script src="../assets/js/black-dashboard.min.js?v=1.0.0"></script><!-- Black Dashboard DEMO methods, don't include it in your project! -->
   <script src="../assets/demo/demo.js"></script>
   <script>
     $(document).ready(function() {
@@ -237,6 +279,14 @@
         });
       });
     });
+  </script>
+  <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
+  <script>
+    window.TrackJS &&
+      TrackJS.install({
+        token: "ee6fab19c5a04ac1a32a645abde4613a",
+        application: "black-dashboard-free"
+      });
   </script>
 </body>
 

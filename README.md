@@ -132,7 +132,7 @@ If you have questions or need help integrating the product please [contact us]()
 
 ## Licensing
 
-- Copyright 2018 Creative Tim (https://www.creative-tim.com/)
+- Copyright 2019 Creative Tim (https://www.creative-tim.com/)
 
 - Licensed under MIT (https://github.com/creativetimofficial/black-dashboard/issues/blob/master/LICENSE.md)
 
