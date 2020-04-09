@@ -4790,6 +4790,7 @@ input[type="button"].btn-block {
   font-size: 0.99925rem;
   line-height: inherit;
   white-space: nowrap;
+  margin-left: 30px;
 }
 
 .navbar-brand:hover,
@@ -14577,7 +14578,7 @@ fieldset[disabled] .btn-link.active {
 }
 
 .footer {
-  padding: 24px 0 24px 250px;
+  padding: 24px 0 24px 0px;
 }
 
 .footer [class*="container-"] {
@@ -15869,7 +15870,6 @@ img {
 }
 
 .navbar .navbar-brand {
-  position: fixed;
   padding-top: .3125rem;
   padding-bottom: .3125rem;
   color: #ffffff;
@@ -15925,6 +15925,39 @@ img {
 .navbar-nav li i {
   vertical-align: middle;
   font-size: 20px;
+}
+
+.navbar .navbar-toggler-bar {
+  display: block;
+  position: relative;
+  width: 22px;
+  height: 1px;
+  border-radius: 1px;
+  background: #ffffff;
+}
+
+.navbar .navbar-toggler-bar.navbar-kebab {
+  height: 4px;
+  width: 4px;
+  margin-bottom: 3px;
+  border-radius: 50%;
+}
+
+.navbar .navbar-toggler-bar+.navbar-toggler-bar {
+  margin-top: 7px;
+}
+
+.navbar .navbar-toggler-bar+.navbar-toggler-bar.navbar-kebab {
+  margin-top: 0px;
+}
+
+.navbar .navbar-toggler-bar.bar2 {
+  width: 17px;
+  transition: width .2s linear;
+}
+
+.navbar-toggle.d-inline .navbar-toggler{
+  display: block;
 }
 
 @media screen and (max-width: 991px) {
@@ -17996,7 +18029,7 @@ table.tablesorter thead tr .headerSortDown {
   height: 380px;
 }
 
-@media screen and (max-width: 991px) {
+
   .sidebar {
     position: fixed;
     display: block;
@@ -18018,7 +18051,7 @@ table.tablesorter thead tr .headerSortDown {
     -ms-transform: translate3d(-260px, 0, 0);
     transform: translate3d(-260px, 0, 0);
   }
-}
+
 
 @media screen and (max-width: 991px) and (prefers-reduced-motion: reduce) {
   .sidebar {
@@ -18038,9 +18071,10 @@ table.tablesorter thead tr .headerSortDown {
   }
 }
 
-@media screen and (max-width: 991px) {
+
   .main-panel {
     width: 100%;
+    transition: 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
 
   .main-panel .content {
@@ -18064,7 +18098,7 @@ table.tablesorter thead tr .headerSortDown {
     -ms-transform: translate3d(0px, 0, 0);
     transform: translate3d(0px, 0, 0);
   }
-}
+
 
 @media screen and (max-width: 991px) and (prefers-reduced-motion: reduce) {
   .nav-open .sidebar {
