@@ -292,6 +292,10 @@ select {
   word-wrap: normal;
 }
 
+select option{
+    background-color:#27293d;
+}
+
 button,
 [type="button"],
 [type="reset"],
