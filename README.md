@@ -23,6 +23,7 @@ We are very excited to share this dashboard with you and we look forward to hear
 
 * [Demo](#demo)
 * [Quick Start](#quick-start)
+* [Deploy](#deploy)
 * [Documentation](#documentation)
 * [File Structure](#file-structure)
 * [Browser Support](#browser-support)
@@ -51,6 +52,11 @@ We are very excited to share this dashboard with you and we look forward to hear
 - [Download from Github](https://github.com/creativetimofficial/black-dashboard/archive/master.zip).
 - [Download from Creative Tim](https://www.creative-tim.com/product/black-dashboard).
 
+## Deploy
+
+:rocket: You can deploy your own version of the template to Genezio with one click:
+
+[![Deploy to Genezio](https://raw.githubusercontent.com/Genez-io/graphics/main/svg/deploy-button.svg)](https://app.genez.io/start/deploy?repository=https://github.com/creativetimofficial/black-dashboard&utm_source=github&utm_medium=referral&utm_campaign=github-creativetim&utm_term=deploy-project&utm_content=button-head)
 
 ## Documentation
 The documentation for the Black Dashboard is hosted at our [website](https://demos.creative-tim.com/black-dashboard/docs/1.0/getting-started/introduction.html).
